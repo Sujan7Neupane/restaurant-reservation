@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Parkinsans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main-section {
+  background-color: rgb(230, 204, 189);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#main-section .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.reservation-container {
+  background-color: #fff;
+  max-width: 50%;
+  border-radius: 0.5rem;
+}
+
+.image-slider-div {
+  min-height: 50vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  /* Optional: Add navigation buttons */
+}
+.image-slider-div .slide {
+  width: 100vw; /* Each image will take up the full width of the device */
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.image-slider-div .nav-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.image-slider-div .nav-buttons button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.main-section {
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+}
+.main-section .rating-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.main-section .rating-div h2.title {
+  font-size: 1.3rem;
+}
+.main-section .love-icon {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+}
+.main-section .love-icon i {
+  font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+  padding: 1rem;
+}/*# sourceMappingURL=style.css.map */
