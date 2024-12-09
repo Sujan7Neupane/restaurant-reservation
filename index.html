@@ -15,9 +15,14 @@
         <div class="container">
             <div class="reservation-container">
                 <div class="image-slider-div">
-                    <img src="./images/slider1.webp" alt="Image 1" class="slide">
-                    <!-- <img src="./images/slider2.jpeg" alt="Image 2" class="slide">
-                    <img src="./images/slider3.webp" alt="Image 3" class="slide"> -->
+                    <img src="./images/slider1.webp" alt="Image 1" class="slide" style="display: block;">
+                    <img src="./images/slider2.jpeg" alt="Image 2" class="slide" style="display: none;">
+                    <img src="./images/slider3.webp" alt="Image 3" class="slide" style="display: none;">
+                </div>
+                <div class="indicator-container">
+                    <div class="indicator active" data-index="0"></div>
+                    <div class="indicator" data-index="1"></div>
+                    <div class="indicator" data-index="2"></div>
                 </div>
                 <div class="main-section">
                     <div class="rating-div">
@@ -45,6 +50,7 @@
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
