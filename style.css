@@ -34,30 +34,14 @@ body {
 
 .image-slider-div {
   min-height: 50vh;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  /* Optional: Add navigation buttons */
-}
-.image-slider-div .slide {
-  width: 100vw; /* Each image will take up the full width of the device */
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.image-slider-div .nav-buttons {
-  position: absolute;
-  top: 50%;
+.image-slider-div .slide {
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.image-slider-div .nav-buttons button {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
+  height: auto;
 }
 
 .main-section {
